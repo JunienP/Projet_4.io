@@ -31,7 +31,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -54,22 +53,6 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
-}
-
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
 }
 
 .bg-repeat {
@@ -676,10 +659,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -872,10 +851,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,9 +859,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
 }
 
 @media (max-width: 767px) {

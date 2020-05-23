@@ -1,0 +1,23 @@
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contener {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.space {
+    margin-top: 40px;
+}
+
+.fab.fa-instagram,.fas.fa-basketball-ball,.fab.fa-facebook-f,.fab.fa-twitter {
+    font-size: 50px;
+}
+
+.size {
+    font-size: 15px;
+}
